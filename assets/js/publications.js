@@ -98,21 +98,38 @@ function renderPublications(publications) {
 
     let doiButton = "";
 
-    if (pub.doi && pub.doi.trim() !== "") {
+if (pub.doi && pub.doi.trim() !== "") {
 
-      doiButton =
-        `
+    doiButton =
+
+    `
+    <div class="pub-doi">
+
+        <span class="doi-label">
+
+            DOI:
+
+        </span>
+
         <a
-            class="pub-doi"
+
+            class="doi-link"
+
             href="https://doi.org/${pub.doi}"
+
             target="_blank"
+
             rel="noopener noreferrer">
 
-            View DOI
+            ${pub.doi}
 
         </a>
-        `;
-    }
+
+    </div>
+
+    `;
+
+}
 
     let tagsHTML = "";
 
