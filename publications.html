@@ -1,296 +1,49 @@
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Publications | Quantum Spintronics Laboratory</title>
-
-<link rel="stylesheet" href="assets/css/style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-<header>
-
-<div class="container nav-container">
-
-<div class="logo">
-
-<h2>Q-LAB</h2>
-
-<span>Quantum Spintronics Laboratory</span>
-
-</div>
-
-<nav>
-
-<ul>
-
-<li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="research.html">Research</a></li>
-
-<li><a href="projects.html">Projects</a></li>
-
-<li><a href="publications.html" class="active">Publications</a></li>
-
-<li><a href="teaching.html">Teaching</a></li>
-
-<li><a href="team.html">Team</a></li>
-
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</div>
-
-</header>
-
-<section class="hero">
-
-<div class="container">
-
-<h1>Publications</h1>
-
-<p>
-
-Selected research publications from Quantum Spintronics Laboratory (Q-LAB)
-
-</p>
-
-</div>
-
-</section>
-
-<section class="container">
-
-<div class="card">
-
-<h2>Research Output</h2>
-
-<p>
-
-Q-LAB publishes research in leading international journals covering Spintronics, Quantum Materials, Condensed Matter Physics, Altermagnetism, Magnetic Tunnel Junctions and Topological Materials.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Selected Publications</h2>
-
-<ol>
-
-<li>
-
-<strong>Experimental realization of advanced spintronic heterostructures</strong>
-
-<br>
-
-B. B. Singh et al.
-
-<br>
-
-<i>Physical Review Applied</i>
-
-</li>
-
-<br>
-
-<li>
-
-<strong>Spin pumping and spin transport in topological materials</strong>
-
-<br>
-
-B. B. Singh et al.
-
-<br>
-
-<i>Journal of Applied Physics</i>
-
-</li>
-
-<br>
-
-<li>
-
-<strong>Magnetic tunnel junctions for energy-efficient information technologies</strong>
-
-<br>
-
-B. B. Singh et al.
-
-<br>
-
-<i>Applied Physics Letters</i>
-
-</li>
-
-<br>
-
-<li>
-
-<strong>Magnetic skyrmions and chiral spin textures</strong>
-
-<br>
-
-B. B. Singh et al.
-
-<br>
-
-<i>Scientific Reports</i>
-
-</li>
-
-</ol>
-
-</div>
-
-<div class="card">
-
-<h2>Research Areas</h2>
-
-<ul>
-
-<li>Spintronics</li>
-
-<li>Quantum Materials</li>
-
-<li>Altermagnetism</li>
-
-<li>Magnetic Tunnel Junctions</li>
-
-<li>Spin Pumping</li>
-
-<li>Topological Materials</li>
-
-<li>Magnetic Skyrmions</li>
-
-<li>Artificial Intelligence for Materials Discovery</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Publication Metrics</h2>
-
-<div class="grid">
-
-<div>
-
-<h2>35+</h2>
-
-<p>Journal Publications</p>
-
-</div>
-
-<div>
-
-<h2>40+</h2>
-
-<p>Conference Papers</p>
-
-</div>
-
-<div>
-
-<h2>1000+</h2>
-
-<p>Citations</p>
-
-</div>
-
-<div>
-
-<h2>International</h2>
-
-<p>Collaborations</p>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<h2>Google Scholar</h2>
-
-<p>
-
-For the complete and updated list of publications, citations and research metrics, please visit the Google Scholar profile.
-
-</p>
-
-<p>
-
-<a class="button"
-
-href="https://scholar.google.com/citations?user=TYRkkxAAAAAJ&hl=en"
-
-target="_blank">
-
-View Google Scholar Profile
-
-</a>
-
-</p>
-
-</div>
-
-</section>
-
-<footer>
-
-<div class="container">
-
-<h3>
-
-Quantum Spintronics Laboratory (Q-LAB)
-
-</h3>
-
-<p>
-
-Department of Physics
-
-Harcourt Butler Technical University
-
-Kanpur, India
-
-</p>
-
-<p>
-
-© 2026 Quantum Spintronics Laboratory
-
-</p>
-
-</div>
-
-</footer>
-
-<script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
-```
+<!doctype html><html><head><meta charset='utf-8'><title>Publications</title><style>
+body{font-family:Arial;max-width:1000px;margin:auto;padding:20px;background:#f4f7fb}
+.pub{background:#fff;padding:18px;margin:15px 0;border-radius:8px;box-shadow:0 2px 8px #ccc}
+h1{color:#123}
+input{width:100%;padding:10px}
+</style><script>
+function s(){let q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('.pub').forEach(x=>x.style.display=x.innerText.toLowerCase().includes(q)?'block':'none')}
+</script></head><body><h1>Publications</h1><input id='q' onkeyup='s()' placeholder='Search publications...'>
+<div class='pub'><h3>Strain engineered domain structure and their relaxation in perpendicularly magnetized Co/Pt deposited on flexible polyimide</h3><p>Pandey, Esita, Singh</strong>, <strong>Braj Bhusan, Sharangi, Purbasha, Bedanta, Subhankar</p><p><em>Nano Express</em> <strong>1</strong> 010037 (2020)</p></div>
+<div class='pub'><h3>Study of angular dependence of exchange bias and misalignment in uniaxial and unidirectional anisotropy in NiFe (111)/FeMn (111)/CoFeB (amorphous) stack</h3><p>Singh, <strong>Braj Bhusan, Chaudhary, Sujeet</p><p><em>Journal of Magnetism and Magnetic Materials</em> <strong>385</strong> 166--174 (2015)</p></div>
+<div class='pub'><h3>Tunneling behavior in ion-assist ion-beam sputtered CoFe/MgO/NiFe magnetic tunnel junctions</h3><p>Singh, <strong>Braj Bhusan, Chaudhary, Sujeet, Pandya, Dinesh K</p><p><em>Materials Research Bulletin</em> <strong>47</strong> 3786--3790 (2012)</p></div>
+<div class='pub'><h3>Effect of spin glass frustration on exchange bias in NiMn/CoFeB bilayers</h3><p>Nayak, Sagarika, Manna, Palash Kumar, Singh</strong>, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>Physical Chemistry Chemical Physics</em> <strong>23</strong> 6481--6489 (2021)</p></div>
+<div class='pub'><h3>High spin to charge conversion efficiency in electron beam-evaporated topological insulator Bi2Se3</h3><p>Singh, <strong>Braj Bhusan, Jena, Sukanta Kumar, Samanta, Manisha, Biswas, Kanishka, Bedanta, Subhankar</p><p><em>ACS applied materials \& interfaces</em> <strong>12</strong> 53409--53415 (2020)</p></div>
+<div class='pub'><h3>Size and shape of skyrmions for variable Dzyaloshinskii--Moriya interaction and uniaxial anisotropy</h3><p>Behera, Aroop Kumar, Mishra, Swapna Sindhu, Mallick, Sougata, Singh</strong>, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>Journal of Physics D: Applied Physics</em> <strong>51</strong> 285001 (2018)</p></div>
+<div class='pub'><h3>Effect of MgO spacer and annealing on interface and magnetic properties of ion beam sputtered NiFe/Mg/MgO/CoFe layer structures</h3><p>Bhusan Singh</strong>, Braj, Chaudhary, Sujeet</p><p><em>Journal of Applied Physics</em> <strong>112</strong>  (2012)</p></div>
+<div class='pub'><h3>X-ray photoelectron spectroscopy and conducting atomic force microscopy investigations on dual ion beam sputtered MgO ultrathin films</h3><p>Singh, <strong>Braj Bhusan, Agrawal, Vikash, Joshi, Amish G, Chaudhary, Sujeet</p><p><em>Thin Solid Films</em> <strong>520</strong> 6734--6739 (2012)</p></div>
+<div class='pub'><h3>Spin pumping and inverse spin Hall effect in iridium oxide</h3><p>Sahoo, Biswajit, Roy, Koustuv, Gupta, Pushpendra, Mishra, Abhisek, Satpati, Biswarup, Singh</strong>, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>Advanced Quantum Technologies</em> <strong>4</strong> 2000146 (2021)</p></div>
+<div class='pub'><h3>Skyrmion racetrack memory with an antidot</h3><p>Kumar Behera, Aroop, Murapaka, Chandrasekhar, Mallick, Sougata, Bhusan Singh</strong>, Braj, Bedanta, Subhankar</p><p><em>Journal of Physics D: Applied Physics</em> <strong>54</strong> 025001 (2021)</p></div>
+<div class='pub'><h3>Dual ion beam sputter deposition and investigations of Fe thin films on Si (100) and MgO (100) and Fe/MgO/Fe tunnel junctions</h3><p>Singh, <strong>Braj Bhusan, Gupta, Priyanka, Chaudhary, Sujeet, Pandya, DK, Kashyap, Subhash C</p><p><em></em> <strong></strong>  ()</p></div>
+<div class='pub'><h3>Magnetic and Electronic Structure study of Fe/MgO/Fe/Co Multilayer Stack Deposited by E-Beam Evaporation</h3><p>Singh, Jitendra Pal, Gautam, Sanjeev, Singh</strong>, <strong>Braj Bhusan, Raju, M, Chaudhary, S, Kabiraj, D, Kanjilal, D, Lee, Jenn-Min, Chen, Jin-Ming, Asokan, K, others</p><p><em>arXiv preprint arXiv:1305.2717</em> <strong></strong>  (2013)</p></div>
+<div class='pub'><h3>Spin pumping and inverse spin Hall effect in CoFeB/IrMn heterostructures</h3><p>Roy, Koustuv, Mishra, Abhisek, Gupta, Pushpendra, Mohanty, Shaktiranjan, Singh</strong>, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>Journal of Physics D: Applied Physics</em> <strong>54</strong> 425001 (2021)</p></div>
+<div class='pub'><h3>High spin mixing conductance and spin interface transparency at $ Co\_2Fe\_ $\{$0.4$\</h3><p>Singh, <strong>Braj Bhusan, Roy, Koustuv, Gupta, Pushpendra, Seki, Takeshi, Takanashi, Koki, Bedanta, Subhankar</p><p><em>arXiv preprint arXiv:1911.02230</em> <strong></strong>  (2019)</p></div>
+<div class='pub'><h3>Tunneling conductance studies in the ion-beam sputtered CoFe/Mg/MgO/NiFe magnetic tunnel junctions</h3><p>Singh, <strong>Braj Bhusan, Chaudhary, Sujeet</p><p><em>AIP Conference Proceedings</em> <strong>1536</strong> 1079--1080 (2013)</p></div>
+<div class='pub'><h3>Degenerate skyrmionic states in synthetic antiferromagnets</h3><p>Bhukta, Mona, Singh</strong>, <strong>Braj Bhusan, Mallick, Sougata, Rohart, Stanislas, Bedanta, Subhankar</p><p><em>Nanotechnology</em> <strong>33</strong> 385702 (2022)</p></div>
+<div class='pub'><h3>Unusual domain wall motion in the vicinity of the depinning field in a Pt/CoFeB/MgO film</h3><p>Ojha, Brindaban, Singh</strong>, <strong>Braj Bhusan, Sharma, Minaxi, Mallick, Sougata, Jeudy, Vincent, Thiaville, Andr{\'e</p><p><em>Applied Physics A</em> <strong>129</strong> 688 (2023)</p></div>
+<div class='pub'><h3>Electronic structure of magnetic Fe/MgO/Fe/Co multilayer structure by NEXAFS spectroscopy</h3><p>Singh, Jitendra Pal, Gautam, Sanjeev, Lim, Weon Cheol, Asokan, K, Singh</strong>, <strong>Braj Bhusan, Raju, M, Chaudhary, Sujeet, Kabiraj, D, Kanjilal, D, Lee, Jenn-Min, others</p><p><em>Vacuum</em> <strong>138</strong> 48--54 (2017)</p></div>
+<div class='pub'><h3>Exchange bias in Fe/Ir20Mn80 bilayers: Role of spin-glass like interface and ‘bulk’antiferromagnet spins</h3><p>Nayak, Sagarika, Manna, Palash Kumar, Vijayabaskaran, Thiruvengadam, Singh</strong>, <strong>Braj Bhusan, Chelvane, J Arout, Bedanta, Subhankar</p><p><em>Journal of Magnetism and Magnetic Materials</em> <strong>499</strong> 166267 (2020)</p></div>
+<div class='pub'><h3>Influence of Depth of Planting on Development of Black Scurf of Potato(Rhizoctonia solani)</h3><p>Singh, B, Lakra, BS, Niwas, R, Singh</strong>, M</p><p><em>Annals of Biology</em> <strong>21</strong> 241--244 (2005)</p></div>
+<div class='pub'><h3>Tuning the anisotropy and domain structure of Co films by variable growth conditions and seed layers</h3><p>Mallick, Sougata, Mallik, Srijani, Singh</strong>, <strong>Braj Bhusan, Chowdhury, Niru, Gieniusz, Ryszard, Maziewski, Andrzej, Bedanta, Subhankar</p><p><em>Journal of Physics D: Applied Physics</em> <strong>51</strong> 275003 (2018)</p></div>
+<div class='pub'><h3>Frequency dependent inverse spin Hall effect in La0. 67Sr0. 33MnO3/Pt bilayer system</h3><p>Gupta, Pushpendra, Singh</strong>, <strong>Braj Bhusan, Roy, Koustuv, Singh, Aditya, Waschk, Markus, Sarkar, Anirban, Brueckel, Thomas</p><p><em>Proceedings of the international hybrid conference on frontiers in materials for technological applications: book of abstracts</em> <strong></strong> 92--93 (2022)</p></div>
+<div class='pub'><h3>Study of spin pumping in Co thin film vis-{\`a</h3><p>Singh, <strong>Braj Bhusan, Jena, Sukanta Kumar, Bedanta, Subhankar</p><p><em>Journal of Physics D: Applied Physics</em> <strong>50</strong> 345001 (2017)</p></div>
+<div class='pub'><h3>A novel chiral spin texture: Antiferromagnetic Skyrmionium</h3><p>Bhukta, Mona Minakshee Manjaree, Mishra, Abhilash, Pradhan, Gajanan, Mallick, Sougata, Singh</strong>, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>arXiv preprint arXiv:1810.08262</em> <strong></strong>  (2018)</p></div>
+<div class='pub'><h3>Spin pumping and inverse spin Hall effect in CoFeB/C $ \_ $\{$60$\</h3><p>Sharangi, Purbasha, Singh</strong>, <strong>Braj Bhusan, Nayak, Sagarika, Bedanta, Subhankar</p><p><em>arXiv preprint arXiv:2106.06829</em> <strong></strong>  (2021)</p></div>
+<div class='pub'><h3>High spin mixing conductance and spin interface transparency at the interface of a Co2Fe0. 4Mn0. 6Si Heusler alloy and Pt</h3><p>Singh, <strong>Braj Bhusan, Roy, Koustuv, Gupta, Pushpendra, Seki, Takeshi, Takanashi, Koki, Bedanta, Subhankar</p><p><em>NPG Asia Materials</em> <strong>13</strong> 9 (2021)</p></div>
+<div class='pub'><h3>Special Issue of ICMAGMA 2018 on Topics Magnetic Nanoparticles and Thin Films</h3><p>Bedanta, Subhankar, Arout Chelvane, J, Saravanan, P, Singh</strong>, <strong>Braj Bhusan, Nayak, Ajaya K, Kleemann, Wolfgang</p><p><em>Journal of Superconductivity and Novel Magnetism</em> <strong>33</strong> 1585--1585 (2020)</p></div>
+<div class='pub'><h3>Inverse spin Hall effect in electron beam evaporated topological insulator Bi2Se3 thin film</h3><p>Singh, Braj B, Jena, Sukanta K, Samanta, Manisha, Biswas, Kanishka, Satpati, Biswarup, Bedanta, Subhankar</p><p><em>physica status solidi (RRL)--Rapid Research Letters</em> <strong>13</strong> 1800492 (2019)</p></div>
+<div class='pub'><h3>Statistical abstract India, 1997</h3><p>Singh, BB, Nath, Dina, Singh</strong>, Tej Vir, Srivastava, RP, Gupta, VB, Kumar, Suresh, Sharma, MC, Raju, MSR, Lakra, BS, Lal, Raj, others</p><p><em></em> <strong></strong>  (1997)</p></div>
+<div class='pub'><h3>Large spin Hall angle and spin-mixing conductance in the highly resistive antiferromagnet Mn 2 Au</h3><p>Singh, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>Physical Review Applied</em> <strong>13</strong> 044020 (2020)</p></div>
+<div class='pub'><h3>Attack of serpentine leaf miner, Liriomyza trifolii Burgess (Agromyzidae: Diptera) on cotton in Punjab-a new record.</h3><p>Sohi, AS, Mann, HS, Singh</strong>, J, Singh, B, Dhaliwal, CS</p><p><em></em> <strong></strong>  (1994)</p></div>
+<div class='pub'><h3>Inverse spin Hall effect and spin pumping in the polycrystalline noncollinear antiferromagnetic Mn 3 Ga</h3><p>Singh, <strong>Braj Bhusan, Roy, Koustuv, Chelvane, J Arout, Bedanta, Subhankar</p><p><em>Physical Review B</em> <strong>102</strong> 174444 (2020)</p></div>
+<div class='pub'><h3>Spin pumping and inverse spin Hall effect in magnetron-sputtered large area MoS2/Co40Fe40B20 bilayers</h3><p>Mishra, Abhisek, Gupta, Pushpendra, Thiruvengadam, V, Singh</strong>, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>Journal of Alloys and Compounds</em> <strong>970</strong> 172076 (2024)</p></div>
+<div class='pub'><h3>Magnetization reversal, damping properties and magnetic anisotropy of L1-ordered FeNi thin films</h3><p>Thiruvengadam, V, Singh</strong>, BB, Kojima, Takayuki, Takanashi, K, Mizuguchi, Masaki, Bedanta, S</p><p><em>Applied Physics Letters</em> <strong>115</strong>  (2019)</p></div>
+<div class='pub'><h3>Study of the magnetic interface and its effect in Fe/NiFe bilayers of alternating order</h3><p>Nayak, Sagarika, Das, Sudhansu Sekhar, Singh</strong>, <strong>Braj Bhusan, Charlton, Timothy R, Kinane, Christy J, Bedanta, Subhankar</p><p><em>RSC advances</em> <strong>10</strong> 34266--34275 (2020)</p></div>
+<div class='pub'><h3>Simultaneous observation of anti-damping and the inverse spin Hall effect in the La 0.67 Sr 0.33 MnO 3/Pt bilayer system</h3><p>Gupta, Pushpendra, Singh</strong>, <strong>Braj Bhusan, Roy, Koustuv, Sarkar, Anirban, Waschk, Markus, Brueckel, Thomas, Bedanta, Subhankar</p><p><em>Nanoscale</em> <strong>13</strong> 2714--2719 (2021)</p></div>
+<div class='pub'><h3>Superconductivity in Ag implanted Au thin film</h3><p>Dalai, Manas Kumar, Singh</strong>, <strong>Braj Bhusan, Sethy, Salila Kumar, Sahoo, Satyaprakash, Bedanta, Subhankar</p><p><em>Physica B: Condensed Matter</em> <strong>601</strong> 412607 (2021)</p></div>
+<div class='pub'><h3>Giant spin Hall angle in Iridium Oxide</h3><p>Sahoo, Biswajit, Roy, Koustuv, Gupta, Pushpendra, Satapati, Biswarup, Singh</strong>, Braj B, Bedanta, Subhankar</p><p><em>arXiv preprint arXiv:2006.01865</em> <strong></strong>  (2020)</p></div>
+<div class='pub'><h3>Tailoring Spin-to-Charge Conversion Efficiency via Microwave Frequency in La 0. 6 7 Sr 0. 3 3 MnO3/Pt Bilayer System</h3><p>Gupta, Pushpendra, Singh</strong>, <strong>Braj Bhusan, Mishra, Abhisek, Kumar, Aditya, Sarkar, Anirban, Waschk, Markus, Bedanta, Subhankar</p><p><em>Spin</em> <strong>14</strong> 2340019 (2024)</p></div>
+<div class='pub'><h3>Tuning of magnetic properties by alternating the order of hard/soft bilayers with various thicknesses</h3><p>Nayak, Sagarika, Singh</strong>, <strong>Braj Bhusan, Mallick, Sougata, Bedanta, Subhankar</p><p><em>Journal of Physics D: Applied Physics</em> <strong>52</strong> 305301 (2019)</p></div>
+<div class='pub'><h3>Magnetization Reversal and Domain Structures in Perpendicular Synthetic Antiferromagnets Prepared on Rigid and Flexible Substrates: Mohanty, Sharma, Moharana, Ojha, Pandey, Singh, and Bedanta</h3><p>Mohanty, Shaktiranjan, Sharma, Minaxi, Moharana, Ashish Kumar, Ojha, Brindaban, Pandey, Esita, Singh</strong>, <strong>Braj Bhusan, Bedanta, Subhankar</p><p><em>Jom</em> <strong>74</strong> 2319--2327 (2022)</p></div></body></html>
