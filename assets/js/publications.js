@@ -1,4 +1,4 @@
-```javascript
+javascript
 /* ==========================================
    Quantum Spintronics Laboratory
    Publications JavaScript
@@ -170,4 +170,4 @@ function filterYear(year) {
     searchPublications();
 
 }
-```
+
