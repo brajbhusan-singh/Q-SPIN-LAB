@@ -1,0 +1,275 @@
+[
+  {
+    "year": "2024",
+    "title": "Spin pumping and inverse spin Hall effect in magnetron-sputtered large area MoS₂/Co₄₀Fe₄₀B₂₀ bilayers",
+    "authors": "Abhisek Mishra, Pushpendra Gupta, V. Thiruvengadam, Braj Bhusan Singh, Subhankar Bedanta",
+    "journal": "Journal of Alloys and Compounds",
+    "volume": "970",
+    "pages": "172076",
+    "doi": "",
+    "tags": ["Spintronics","Spin Pumping","MoS₂"]
+  },
+  {
+    "year": "2024",
+    "title": "Tailoring Spin-to-Charge Conversion Efficiency via Microwave Frequency in La₀.₆₇Sr₀.₃₃MnO₃/Pt Bilayer System",
+    "authors": "Pushpendra Gupta, Braj Bhusan Singh, Abhisek Mishra, Aditya Kumar, Anirban Sarkar, Markus Waschk, Subhankar Bedanta",
+    "journal": "SPIN",
+    "volume": "14",
+    "pages": "2340019",
+    "doi": "",
+    "tags": ["Spintronics","Spin Hall Effect"]
+  },
+  {
+    "year": "2023",
+    "title": "Unusual domain wall motion in the vicinity of the depinning field in a Pt/CoFeB/MgO film",
+    "authors": "Brindaban Ojha, Braj Bhusan Singh, Minaxi Sharma, Sougata Mallick, Vincent Jeudy, André Thiaville, Stanislas Rohart, Subhankar Bedanta",
+    "journal": "Applied Physics A",
+    "volume": "129",
+    "pages": "688",
+    "doi": "",
+    "tags": ["Domain Walls","Spintronics"]
+  },
+  {
+    "year": "2022",
+    "title": "Degenerate skyrmionic states in synthetic antiferromagnets",
+    "authors": "Mona Bhukta, Braj Bhusan Singh, Sougata Mallick, Stanislas Rohart, Subhankar Bedanta",
+    "journal": "Nanotechnology",
+    "volume": "33",
+    "pages": "385702",
+    "doi": "",
+    "tags": ["Skyrmions","Antiferromagnets"]
+  },
+  {
+    "year": "2022",
+    "title": "Frequency dependent inverse spin Hall effect in La₀.₆₇Sr₀.₃₃MnO₃/Pt bilayer system",
+    "authors": "Pushpendra Gupta, Braj Bhusan Singh, Koustuv Roy, Aditya Singh, Markus Waschk, Anirban Sarkar, Thomas Brueckel",
+    "journal": "Proceedings of Frontiers in Materials for Technological Applications",
+    "volume": "",
+    "pages": "92–93",
+    "doi": "",
+    "tags": ["Conference","Spin Hall Effect"]
+  },
+  {
+    "year": "2022",
+    "title": "Magnetization Reversal and Domain Structures in Perpendicular Synthetic Antiferromagnets Prepared on Rigid and Flexible Substrates",
+    "authors": "Shaktiranjan Mohanty, Minaxi Sharma, Ashish Kumar Moharana, Brindaban Ojha, Esita Pandey, Braj Bhusan Singh, Subhankar Bedanta",
+    "journal": "JOM",
+    "volume": "74",
+    "pages": "2319–2327",
+    "doi": "",
+    "tags": ["Synthetic Antiferromagnets","Magnetization"]
+  }
+,
+{
+  "year": "2021",
+  "title": "Effect of spin glass frustration on exchange bias in NiMn/CoFeB bilayers",
+  "authors": "Sagarika Nayak, Palash Kumar Manna, Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "Physical Chemistry Chemical Physics",
+  "volume": "23",
+  "pages": "6481–6489",
+  "doi": "",
+  "tags": ["Exchange Bias", "Spin Glass"]
+},
+{
+  "year": "2021",
+  "title": "Spin pumping and inverse spin Hall effect in iridium oxide",
+  "authors": "Biswajit Sahoo, Koustuv Roy, Pushpendra Gupta, Abhisek Mishra, Biswarup Satpati, Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "Advanced Quantum Technologies",
+  "volume": "4",
+  "pages": "2000146",
+  "doi": "",
+  "tags": ["Spin Pumping", "Iridium Oxide"]
+},
+{
+  "year": "2021",
+  "title": "Skyrmion racetrack memory with an antidot",
+  "authors": "Aroop Kumar Behera, Chandrasekhar Murapaka, Sougata Mallick, Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "Journal of Physics D: Applied Physics",
+  "volume": "54",
+  "pages": "025001",
+  "doi": "",
+  "tags": ["Skyrmions", "Memory"]
+},
+{
+  "year": "2021",
+  "title": "Spin pumping and inverse spin Hall effect in CoFeB/IrMn heterostructures",
+  "authors": "Koustuv Roy, Abhisek Mishra, Pushpendra Gupta, Shaktiranjan Mohanty, Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "Journal of Physics D: Applied Physics",
+  "volume": "54",
+  "pages": "425001",
+  "doi": "",
+  "tags": ["Spin Pumping", "IrMn"]
+},
+{
+  "year": "2021",
+  "title": "High spin mixing conductance and spin interface transparency at the interface of Co₂Fe₀.₄Mn₀.₆Si Heusler alloy and Pt",
+  "authors": "Braj Bhusan Singh, Koustuv Roy, Pushpendra Gupta, Takeshi Seki, Koki Takanashi, Subhankar Bedanta",
+  "journal": "NPG Asia Materials",
+  "volume": "13",
+  "pages": "9",
+  "doi": "",
+  "tags": ["Heusler Alloy", "Spin Mixing Conductance"]
+},
+{
+  "year": "2021",
+  "title": "Simultaneous observation of anti-damping and the inverse spin Hall effect in La₀.₆₇Sr₀.₃₃MnO₃/Pt bilayer system",
+  "authors": "Pushpendra Gupta, Braj Bhusan Singh, Koustuv Roy, Anirban Sarkar, Markus Waschk, Thomas Brueckel, Subhankar Bedanta",
+  "journal": "Nanoscale",
+  "volume": "13",
+  "pages": "2714–2719",
+  "doi": "",
+  "tags": ["Spin Hall Effect", "LSMO"]
+},
+{
+  "year": "2021",
+  "title": "Superconductivity in Ag implanted Au thin film",
+  "authors": "Manas Kumar Dalai, Braj Bhusan Singh, Salila Kumar Sethy, Satyaprakash Sahoo, Subhankar Bedanta",
+  "journal": "Physica B: Condensed Matter",
+  "volume": "601",
+  "pages": "412607",
+  "doi": "",
+  "tags": ["Superconductivity", "Thin Films"]
+},
+{
+  "year": "2020",
+  "title": "Strain engineered domain structure and their relaxation in perpendicularly magnetized Co/Pt deposited on flexible polyimide",
+  "authors": "Esita Pandey, Braj Bhusan Singh, Purbasha Sharangi, Subhankar Bedanta",
+  "journal": "Nano Express",
+  "volume": "1",
+  "pages": "010037",
+  "doi": "",
+  "tags": ["Flexible Electronics", "Domain Structure"]
+},
+{
+  "year": "2020",
+  "title": "High spin-to-charge conversion efficiency in electron beam evaporated topological insulator Bi₂Se₃",
+  "authors": "Braj Bhusan Singh, Sukanta Kumar Jena, Manisha Samanta, Kanishka Biswas, Subhankar Bedanta",
+  "journal": "ACS Applied Materials & Interfaces",
+  "volume": "12",
+  "pages": "53409–53415",
+  "doi": "",
+  "tags": ["Topological Insulator", "Spintronics"]
+},
+{
+  "year": "2020",
+  "title": "Exchange bias in Fe/Ir₂₀Mn₈₀ bilayers: Role of spin-glass-like interface and bulk antiferromagnet spins",
+  "authors": "Sagarika Nayak, Palash Kumar Manna, Thiruvengadam Vijayabaskaran, Braj Bhusan Singh, J. Arout Chelvane, Subhankar Bedanta",
+  "journal": "Journal of Magnetism and Magnetic Materials",
+  "volume": "499",
+  "pages": "166267",
+  "doi": "",
+  "tags": ["Exchange Bias", "Antiferromagnets"]
+},
+{
+  "year": "2020",
+  "title": "Large spin Hall angle and spin-mixing conductance in the highly resistive antiferromagnet Mn₂Au",
+  "authors": "Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "Physical Review Applied",
+  "volume": "13",
+  "pages": "044020",
+  "doi": "",
+  "tags": ["Mn₂Au", "Spin Hall Effect"]
+},
+{
+  "year": "2020",
+  "title": "Inverse spin Hall effect and spin pumping in the polycrystalline noncollinear antiferromagnetic Mn₃Ga",
+  "authors": "Braj Bhusan Singh, Koustuv Roy, J. Arout Chelvane, Subhankar Bedanta",
+  "journal": "Physical Review B",
+  "volume": "102",
+  "pages": "174444",
+  "doi": "",
+  "tags": ["Mn₃Ga", "Spin Pumping"]
+},
+{
+  "year": "2020",
+  "title": "Study of the magnetic interface and its effect in Fe/NiFe bilayers of alternating order",
+  "authors": "Sagarika Nayak, Sudhansu Sekhar Das, Braj Bhusan Singh, Timothy R. Charlton, Christy J. Kinane, Subhankar Bedanta",
+  "journal": "RSC Advances",
+  "volume": "10",
+  "pages": "34266–34275",
+  "doi": "",
+  "tags": ["Magnetic Interface", "Bilayers"]
+}
+  ,
+{
+  "year": "2019",
+  "title": "Influence of interface transparency on spin pumping in ferromagnet/heavy metal heterostructures",
+  "authors": "Koustuv Roy, Braj Bhusan Singh, Pushpendra Gupta, Subhankar Bedanta",
+  "journal": "Journal of Applied Physics",
+  "volume": "126",
+  "pages": "213902",
+  "doi": "",
+  "tags": ["Spin Pumping", "Interfaces"]
+},
+{
+  "year": "2019",
+  "title": "Microwave driven spin dynamics in magnetic heterostructures",
+  "authors": "Braj Bhusan Singh, Koustuv Roy, Subhankar Bedanta",
+  "journal": "AIP Conference Proceedings",
+  "volume": "2115",
+  "pages": "030114",
+  "doi": "",
+  "tags": ["Ferromagnetic Resonance", "Conference"]
+},
+{
+  "year": "2018",
+  "title": "Spin pumping and inverse spin Hall effect in CoFeB/C₆₀/Pt trilayers",
+  "authors": "Braj Bhusan Singh, Pushpendra Gupta, Koustuv Roy, Subhankar Bedanta",
+  "journal": "Journal of Physics D: Applied Physics",
+  "volume": "51",
+  "pages": "475001",
+  "doi": "",
+  "tags": ["Organic Spintronics", "Spin Pumping"]
+},
+{
+  "year": "2018",
+  "title": "Magnetization dynamics in sputtered magnetic thin films",
+  "authors": "Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "AIP Conference Proceedings",
+  "volume": "1942",
+  "pages": "120031",
+  "doi": "",
+  "tags": ["Thin Films", "Conference"]
+},
+{
+  "year": "2017",
+  "title": "Spin transport and damping in ferromagnetic thin films",
+  "authors": "Braj Bhusan Singh, Pushpendra Gupta, Subhankar Bedanta",
+  "journal": "Journal of Magnetism and Magnetic Materials",
+  "volume": "438",
+  "pages": "147-153",
+  "doi": "",
+  "tags": ["Spintronics", "Magnetization"]
+},
+{
+  "year": "2015",
+  "title": "Magnetic properties of sputtered CoFeB thin films",
+  "authors": "Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "AIP Conference Proceedings",
+  "volume": "1665",
+  "pages": "050112",
+  "doi": "",
+  "tags": ["CoFeB", "Thin Films"]
+},
+{
+  "year": "2013",
+  "title": "Structural and magnetic characterization of transition metal thin films",
+  "authors": "Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "Journal of Nanoscience and Nanotechnology",
+  "volume": "13",
+  "pages": "6120-6125",
+  "doi": "",
+  "tags": ["Nanomagnetism", "Thin Films"]
+},
+{
+  "year": "2012",
+  "title": "Magnetic anisotropy in nanostructured ferromagnetic films",
+  "authors": "Braj Bhusan Singh, Subhankar Bedanta",
+  "journal": "Materials Science Forum",
+  "volume": "710",
+  "pages": "325-330",
+  "doi": "",
+  "tags": ["Magnetic Anisotropy", "Nanostructures"]
+}
+]
+]
