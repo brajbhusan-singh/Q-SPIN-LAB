@@ -9,7 +9,7 @@ let currentYear = "All";
 
 /* Load JSON */
 
-fetch("data/publications.json")
+fetch("/quantum-spintronics-lab-v2/data/publications.json")
     .then(response => response.json())
     .then(data => {
 
