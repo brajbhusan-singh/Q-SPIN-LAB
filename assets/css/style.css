@@ -1,0 +1,436 @@
+```css
+/* =======================================
+   Quantum Spintronics Laboratory (Q-LAB)
+   Main Stylesheet
+======================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:#f4f7fb;
+
+    color:#222;
+
+    line-height:1.8;
+
+}
+
+/* Container */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/* Header */
+
+header{
+
+    background:#001b3a;
+
+    color:white;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.nav-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+}
+
+.logo{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.logo h2{
+
+    font-size:30px;
+
+    color:#00d4ff;
+
+}
+
+.logo span{
+
+    font-size:13px;
+
+    opacity:.85;
+
+}
+
+/* Navigation */
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:25px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#00d4ff;
+
+}
+
+nav a.active{
+
+    color:#00d4ff;
+
+}
+
+/* Hero */
+
+.hero{
+
+    background:linear-gradient(135deg,#002147,#005b96);
+
+    color:white;
+
+    text-align:center;
+
+    padding:120px 20px;
+
+}
+
+.hero h1{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.hero h3{
+
+    font-weight:400;
+
+    margin-bottom:10px;
+
+}
+
+.hero p{
+
+    max-width:900px;
+
+    margin:30px auto;
+
+    font-size:22px;
+
+}
+
+/* Button */
+
+.button{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:14px 32px;
+
+    background:#00d4ff;
+
+    color:#001b3a;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    border-radius:40px;
+
+    transition:.3s;
+
+}
+
+.button:hover{
+
+    transform:translateY(-3px);
+
+    background:white;
+
+}
+
+/* Sections */
+
+section{
+
+    padding:70px 0;
+
+}
+
+.section-title{
+
+    font-size:38px;
+
+    margin-bottom:35px;
+
+    color:#002147;
+
+}
+
+/* Cards */
+
+.card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    margin-bottom:30px;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.card h3{
+
+    color:#002147;
+
+    margin-bottom:15px;
+
+}
+
+/* Grid */
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+/* Stats */
+
+.stats{
+
+    background:#002147;
+
+    color:white;
+
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
+    gap:20px;
+
+    text-align:center;
+
+}
+
+.stats h2{
+
+    font-size:54px;
+
+    color:#00d4ff;
+
+}
+
+.stats p{
+
+    margin-top:10px;
+
+    font-size:18px;
+
+}
+
+/* Footer */
+
+footer{
+
+    background:#00152d;
+
+    color:white;
+
+    text-align:center;
+
+    padding:50px 20px;
+
+}
+
+footer h3{
+
+    margin-bottom:20px;
+
+    color:#00d4ff;
+
+}
+
+footer p{
+
+    opacity:.9;
+
+    margin:10px 0;
+
+}
+
+/* Tables */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th,td{
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+}
+
+th{
+
+    background:#002147;
+
+    color:white;
+
+}
+
+/* Lists */
+
+ul{
+
+    padding-left:20px;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.nav-container{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+}
+
+.section-title{
+
+font-size:30px;
+
+}
+
+}
+
+/* Smooth Animation */
+
+.card{
+
+animation:fadeIn .8s ease;
+
+}
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+```
