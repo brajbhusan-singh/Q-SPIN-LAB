@@ -1,6 +1,6 @@
 ```javascript
 /* ==========================================
-   Quantum Spintronics Laboratory (Q-LAB)
+   Quantum Spintronics Laboratory (Q-SPIN LAB)
    Main JavaScript
 ========================================== */
 
