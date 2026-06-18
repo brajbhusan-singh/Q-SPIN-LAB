@@ -1,4 +1,3 @@
-```javascript
 /* ==========================================
    Quantum Spintronics Laboratory (Q-SPIN LAB)
    Main JavaScript
@@ -110,4 +109,4 @@ scrollButton.addEventListener("click", function () {
     });
 
 });
-```
+
