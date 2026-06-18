@@ -10,7 +10,7 @@ let currentYear = "All";
    Load JSON
 -------------------------- */
 
-fetch("Q-SPIN-LAB/assets/data/publications.json")
+fetch("assets/data/publications.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Cannot load publications.json");
