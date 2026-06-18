@@ -10,7 +10,7 @@ let currentYear = "All";
    Load JSON
 -------------------------- */
 
-fetch("/quantum-spintronics-lab-v2/data/publications.json")
+fetch("/Q-SPIN-LAB/data/publications.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Cannot load publications.json");
